@@ -2,8 +2,14 @@
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi</h1>
+    <div>
+      <h1>My Todo List App</h1>
+      <div className='card'>
+        <h2>Title</h2>
+        <div>
+          <button>Delete</button>
+        </div>
+      </div>
     </div>
   );
 }
