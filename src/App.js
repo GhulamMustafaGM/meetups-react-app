@@ -6,8 +6,8 @@ function App() {
       <h1>My Todo List App</h1>
       <div className='card'>
         <h2>Title</h2>
-        <div>
-          <button>Delete</button>
+        <div className='actions' >
+          <button className='btn'>Delete</button>
         </div>
       </div>
     </div>
